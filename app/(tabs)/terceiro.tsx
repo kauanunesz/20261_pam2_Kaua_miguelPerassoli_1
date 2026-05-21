@@ -14,7 +14,7 @@ export default function HomeScreen() {
         // O "recheio" que realmente rola
         contentContainerStyle={styles.container}
       >
-        <Text style={styles.titulo}>ETEC Adolpho Berezin</Text>
+        <Text style={styles.titulo}>ETEC Adolpho Berezão</Text>
 
         <View style={styles.card}>
           <Text style={styles.subtitulo}>Desenvolvimento de Sistemas</Text>
@@ -24,8 +24,6 @@ export default function HomeScreen() {
         </View>
 
         <Text style={styles.textoFundo}>Arraste para ver mais</Text>
-
-        <View style={styles}>.</View>
       </ScrollView>
     </View>
   );
@@ -77,34 +75,4 @@ const styles = StyleSheet.create({
     marginTop: 20,
     textTransform: "uppercase",
   },
-  fichaTecnica: {
-    backgroundColor: "rgba(0, 212, 255, 0.3)",
-    width: "100%",
-    borderRadius: 12,
-    padding: 15,
-    borderWidth: 1,
-    borderColor: "rgba(255, 255, 255, 0.1)",
-  },
-  fichaLinhaSemBorda: {
-    flexDirection: "row",
-    justifyContent: "space-between",
-    paddingVertical: 8,
-  },
-  fichaLabel: {
-    color: "#00d4ff",
-    fontWeight: "bold",
-    fontSize: 14,
-  },
-  fichaValor: {
-    color: '#FFF',
-    fontSize: 14,
-    textAlign: 'right',
-    flex: 1,
-    marginLeft: 10,
-  },
-  tabelaContainer:{
-width: '100%',
-marginBottom:10,
-
-  }
 });
